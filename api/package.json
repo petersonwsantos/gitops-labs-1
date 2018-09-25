@@ -1,0 +1,16 @@
+{
+  "name": "REPLACE_ME",
+  "version": "0.0.0",
+  "description": "Simple App that listens on localhost:6000",
+  "private": true,
+  "scripts": {
+    "test": "echo \"no test specified\" && exit 0",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "pg": "5.0.0",
+    "node-uuid": "1.4.7",
+    "morgan": "~1.6.1"
+  }
+}

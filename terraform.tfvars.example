@@ -1,0 +1,30 @@
+region = "us-east-1"
+
+project = "Stone"
+
+bucket_backend = "name-of-your-s3-bucket-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx123"
+
+key_backend = "terraform.tfstate"
+
+dynamodb_table_backend = "terraform_state_lock_1"
+
+cluster_name = "terraform-eks"
+
+cluster_context_name = "aws"
+
+kubeconfig_dir = "/home/vagrant/.kube"
+
+jx_provider = "eks"
+
+git_provider_url = "https://github.com"
+
+admin_user = "admin"
+
+admin_password = "your-passowrd"
+
+git_user = "your_git_uesername"
+
+git_email = "your_git_emaili@gmail.com"
+
+# https://github.com/settings/tokens/new?scopes=repo,read:user,user:email,write:repo_hook
+git_token = "e32c868df2380923bzxd289383032c2a55"
